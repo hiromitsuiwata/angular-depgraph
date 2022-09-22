@@ -1,4 +1,6 @@
 #!/usr/bin/env node
 
-import { hello } from '..';
-hello();
+import { Parser } from '..';
+
+let parser = new Parser();
+parser.main();
