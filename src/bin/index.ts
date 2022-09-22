@@ -2,5 +2,5 @@
 
 import { Parser } from '..';
 
-let parser = new Parser();
+const parser = new Parser();
 parser.main();

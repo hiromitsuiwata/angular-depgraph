@@ -4,9 +4,9 @@ export class Parser {
   public main(): void {
     console.log('Hello.');
 
-    var sourceCode = `var foo = 123;.trim();`;
+    const sourceCode = `var foo = 123;.trim();`;
 
-    var sourceFile = ts.createSourceFile(
+    const sourceFile = ts.createSourceFile(
       'foo.ts',
       sourceCode,
       ts.ScriptTarget.ES5,
