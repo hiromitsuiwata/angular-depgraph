@@ -8,7 +8,7 @@ describe('hello() のテスト', () => {
 
     // hello メソッドの実行
     const parser = new Parser();
-    parser.main();
+    parser.main([]);
 
     // 1番目のログ出力が 'Hello.' と一致するかチェック
     expect(log).toHaveBeenNthCalledWith(1, 'Hello.');
